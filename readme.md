@@ -5,8 +5,8 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
-
+simple permission and rule  for laravel-api-provider  (other mine repo ) 
+this package is under develop and it's not usable for now :)  
 ## Installation
 
 Via Composer
