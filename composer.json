@@ -1,12 +1,12 @@
 {
     "name": "amin3536/simple-role-permission",
-    "description": ":package_description",
-    "license": "license",
+    "description": "simple-role-permission",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "amin mirmahmoudi",
+            "email": "am.a9173@gmail.com",
+            "homepage": "https://github.com/amin3536"
         }
     ],
     "homepage": "https://github.com/amin3536/simple-role-permission",
