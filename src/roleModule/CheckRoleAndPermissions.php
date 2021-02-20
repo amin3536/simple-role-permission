@@ -30,7 +30,7 @@ trait CheckRoleAndPermissions
     public function checkPermission(Role $role, $permission)
     {
 
-        return $role->$permission->hasFlag(Permissions::fromKey($permission));
+        return $role->$permission->hasFlag(Permissions::fromValue($permission));
     }
 
     /**
