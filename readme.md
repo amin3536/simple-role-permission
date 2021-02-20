@@ -31,6 +31,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 - [ ] polymorphic relations  different user model and rules  
 - [ ] add test
 - [ ] add CI style and CI 
+- [ ] add document
  
 ## Testing
 
