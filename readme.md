@@ -5,8 +5,11 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-simple permission and rule  for laravel-api-provider  (other mine repo ) 
-this package is under develop and it's not usable for now :)  
+simple permission and rule  for [laravel-api-provider][link-laravel-api-provider] 
+
+
+this package is under develop and it has not simple usage for now :) 
+help me to develop this package or wait for it  ;)
 ## Installation
 
 Via Composer
@@ -63,3 +66,5 @@ license. Please see the [license file](license.md) for more information.
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/amin3536
 [link-contributors]: ../../contributors
+[link-laravel-api-provider]: https://github.com/amin3536/laravel-API-UserProvider
+
