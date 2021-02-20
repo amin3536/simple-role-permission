@@ -21,6 +21,14 @@ $ composer require amin3536/simple-role-permission
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
+## to do list
+- [ ] support in client and service side ( micro service )
+- [ ] add migration in library 
+- [ ] auto add middleware 
+- [ ] polymorphic relations  different user model and rules  
+- [ ] add test
+- [ ] add CI style and CI 
+ 
 ## Testing
 
 ``` bash
