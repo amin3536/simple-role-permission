@@ -19,6 +19,40 @@ $ composer require amin3536/simple-role-permission
 ```
 
 ## Usage
+#### init
+add ```use CheckRoleAndPermissions:``` to your model 
+```php
+<?php
+class Admin extends Authenticatable
+{
+    use HasFactory ,Notifiable ,HasApiTokens,CheckRoleAndPermissions;
+    //....
+    }
+```
+##### middleware 
+add middleware in ``app/Http/Kernel.php``
+```php
+<?php
+protected $routeMiddleware = [
+    // ...
+
+    'role_and_permission' => \Amin3536\SimpleRolePermission\roleModule\RoleAndPermissionMiddleware::class,
+];
+```
+simple usage middleware
+```php
+
+<?php 
+Route::group(['middleware' => ['role_and_permission:role_name|permission']], function () {
+    //
+});
+Route::group(['middleware' => ['role_and_permission:owner|'.\Amin3536\SimpleRolePermission\roleModule\Permissions::Editor]], function () {
+    //
+});
+Route::group(['middleware' => ['role_and_permission:videos_admin|'.\Amin3536\SimpleRolePermission\roleModule\Permissions::Creator]], function () {
+    //
+});
+```
 
 ## Change log
 
